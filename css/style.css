@@ -390,6 +390,10 @@
         width: 87%;
     }
 
+    .search {
+        width: 70%;
+    }
+
     .search input {
         font-size: 14px;
     }
