@@ -5,6 +5,17 @@
     font-family: 'Nunito', sans-serif;
 }
 
+#btn-back-to-top {
+    background-color: #E19C37;
+    color: #fff;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    z-index: 2;
+}
+
 .navbar .nav-item a {
     font-size: 18px;
     font-weight: 300;
@@ -196,8 +207,16 @@
 }
 
 .customers-section .body .opinion h6 {
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
     text-align: center;
     color: #E19C37;
+}
+
+.customers-section .body .opinion p {
+    font-size: 18px;
+    font-weight: 400;
 }
 
 .footer-section {
@@ -245,4 +264,241 @@
 
 .footer-section .rectangle {
     height: 50px;
+}
+
+@media all and (max-width:1399px) {
+    .home-section .search-2 {
+        width: 87%;
+    }
+
+    .search {
+        width: 45%;
+    }
+
+    .search input {
+        font-size: 14px;
+    }
+    
+    .search i {
+        font-size: 20px;
+    }
+
+    .navbar-brand img {
+        width: 75% !important;
+    }
+
+    .navbar .nav-item a {
+        font-size: 13px;
+    }
+
+    .home-section {
+        height: 85vh;
+    }
+
+    .home-section h1 {
+        font-size: 25px;
+    }
+    
+    .home-section p {
+        font-size: 22px;
+    }
+
+    .home-section .search-2 input {
+        font-size: 16px;
+    }
+
+    .rectangle-section .rectangle p {
+        font-size: 13px;
+    }
+
+    .rectangle-section .rectangle i {
+        font-size: 35px;
+    }
+
+    .subtitle-section h3 {
+        font-size: 20px;
+    }
+
+    .subtitle-section p {
+        font-size: 14px;
+    }
+
+    .features-section .head h4 {
+        font-size: 20px;
+    }
+
+    .features-section .body h5 {
+        font-size: 18px;
+    }
+
+    .features-section .body p {
+        font-size: 14px;
+    }
+
+
+    .accreditations-section h4 {
+        font-size: 22px;
+    }
+
+    .accreditations-section p {
+        font-size: 16px;
+    }
+
+    .accreditations-section p.special {
+        font-size: 14px;
+    }
+
+    .customers-section .head h4 {
+        font-size: 20px;
+    }
+
+    .customers-section .body .opinion h6 {
+        font-size: 18px;
+    }
+
+    .customers-section .body .opinion p {
+        font-size: 14px;
+    }
+
+    .footer-section h4.special {
+        font-size: 16px;
+    }
+
+    .footer-section strong {
+        font-size: 17px;
+    }
+
+    .footer-section a.special {
+        font-size: 14px;
+    }
+
+    .footer-section h4 {
+        font-size: 16px;
+    }
+
+    .footer-section a {
+        font-size: 14px;
+    }
+
+    .footer-section a:hover {
+        padding-left: 10px;
+    }
+}
+
+@media all and (max-width:991px) {
+    .home-section .search-2 {
+        width: 87%;
+    }
+
+    .search input {
+        font-size: 14px;
+    }
+    
+    .search i {
+        font-size: 20px;
+    }
+
+    .navbar-brand img {
+        width: 75% !important;
+    }
+
+    .navbar .nav-item a {
+        font-size: 16px;
+    }
+
+    .home-section {
+        height: 85vh;
+    }
+
+    .home-section h1 {
+        font-size: 25px;
+    }
+    
+    .home-section p {
+        font-size: 22px;
+    }
+
+    .home-section .search-2 input {
+        font-size: 16px;
+    }
+
+    .rectangle-section .rectangle p {
+        font-size: 13px;
+    }
+
+    .rectangle-section .rectangle i {
+        font-size: 35px;
+    }
+
+    .subtitle-section h3 {
+        font-size: 20px;
+    }
+
+    .subtitle-section p {
+        font-size: 14px;
+    }
+
+    .features-section .head h4 {
+        font-size: 20px;
+    }
+
+    .features-section .body h5 {
+        font-size: 18px;
+    }
+
+    .features-section .body p {
+        font-size: 14px;
+    }
+
+    .features-section .body .icon img {
+        width: 30% !important;
+    }
+
+    .accreditations-section h4 {
+        font-size: 22px;
+    }
+
+    .accreditations-section p {
+        font-size: 16px;
+    }
+
+    .accreditations-section p.special {
+        font-size: 14px;
+    }
+
+    .customers-section .head h4 {
+        font-size: 20px;
+    }
+
+    .customers-section .body .opinion h6 {
+        font-size: 18px;
+    }
+
+    .customers-section .body .opinion p {
+        font-size: 14px;
+    }
+
+    .footer-section h4.special {
+        font-size: 16px;
+    }
+
+    .footer-section strong {
+        font-size: 17px;
+    }
+
+    .footer-section a.special {
+        font-size: 14px;
+    }
+
+    .footer-section h4 {
+        font-size: 16px;
+    }
+
+    .footer-section a {
+        font-size: 14px;
+    }
+
+    .footer-section a:hover {
+        padding-left: 10px;
+    }
 }
