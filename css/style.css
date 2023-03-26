@@ -16,15 +16,15 @@
     z-index: 2;
 }
 
+.navbar-brand img {
+    width: 80% !important;
+}
+
 .navbar .nav-item a {
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 300;
     color: #272727 !important;
     transition: all 0.2s;
-}
-
-.navbar .nav-item a:hover {
-    color: #E19C37 !important;
 }
 
 .navbar .nav-item a.active {
@@ -55,11 +55,11 @@
 }
 
 .search input {
+    font-size: 19px;
+    font-weight: 500;
     color: #FFF;
     border: 0 !important;
     background: transparent !important;
-    font-weight: 600;
-    font-size: 22px;
 }
 
 .search .form-control:focus,.search .form-control:active {
@@ -83,17 +83,17 @@
 }
 
 .home-section h1 {
-    font-size: 40px;
-    font-weight: 700;
-}
-
-.home-section p {
-    font-size: 30px;
+    font-size: 31px;
     font-weight: 600;
 }
 
+.home-section p {
+    font-size: 25px;
+    font-weight: 500;
+}
+
 .home-section .search-2 {
-    width: 90%;
+    width: 100%;
     align-items: center;
     background-color: #FFF !important;
     border-radius: 10px;
@@ -105,7 +105,7 @@
     border: 0 !important;
     background: transparent !important;
     font-weight: 600;
-    font-size: 22px;
+    font-size: 19px;
 }
 
 .home-section .search-2 .form-control:focus,.search-2 .form-control:active {
@@ -125,8 +125,8 @@
 }
 
 .rectangle-section .rectangle p {
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 19px;
+    font-weight: 400;
 }
 
 .subtitle-section img {
@@ -134,20 +134,19 @@
 }
 
 .subtitle-section h3 {
-    font-size: 30px;
+    font-size: 24px;
     font-weight: 400;
     color: #000;
 }
 
 .subtitle-section p {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     color: #000;
 }
 
 .features-section .head h4 {
-    font-family: 'Inter', sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 500;
     color: #000;
 }
@@ -159,43 +158,38 @@
 }
 
 .features-section .body h5 {
-    font-family: 'Inter', sans-serif;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 500;
     color: #000;
 }
 
 .features-section .body p {
-    font-family: 'Inter', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     color: #000;
 }
 
 .accreditations-section h4 {
-    font-family: 'Inter', sans-serif;
-    font-size: 30px;
+    font-size: 24px;
     font-weight: 400;
     color: #000;
 }
 
 .accreditations-section p {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     color: #000;
 }
 
 .accreditations-section p.special {
-    font-family: 'Inter', sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     color: #000;
     white-space: pre-wrap;
 }
 
 .customers-section .head h4 {
-    font-family: 'Inter', sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 500;
     color: #000;
 }
@@ -207,36 +201,34 @@
 }
 
 .customers-section .body .opinion h6 {
-    font-family: 'Inter', sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 400;
     text-align: center;
     color: #E19C37;
 }
 
 .customers-section .body .opinion p {
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 400;
 }
 
 .footer-section {
-    font-family: 'Ubuntu', sans-serif;
     color: #FFF;
     background-color: #001232;
 }
 
 .footer-section h4 {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
 }
 
 .footer-section h4.special {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
 }
 
 .footer-section strong {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700;
 }
 
@@ -247,13 +239,13 @@
 .footer-section a {
     text-decoration: none;
     color: #FFF;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     transition: all 0.5s;
 }
 
 .footer-section a:hover {
-    padding-left: 20px;
+    padding-left: 18px;
     color: #E19C37;
 }
 
@@ -309,6 +301,10 @@
 
     .rectangle-section .rectangle p {
         font-size: 13px;
+    }
+
+    .rectangle-section .rectangle img {
+        width: 95%;
     }
 
     .rectangle-section .rectangle i {
@@ -415,11 +411,11 @@
     }
 
     .home-section h1 {
-        font-size: 25px;
+        font-size: 22px;
     }
     
     .home-section p {
-        font-size: 22px;
+        font-size: 18px;
     }
 
     .home-section .search-2 input {
@@ -428,6 +424,10 @@
 
     .rectangle-section .rectangle p {
         font-size: 13px;
+    }
+
+    .rectangle-section .rectangle img {
+        width: 75%;
     }
 
     .rectangle-section .rectangle i {
