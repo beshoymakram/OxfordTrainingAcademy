@@ -129,6 +129,76 @@
     font-weight: 400;
 }
 
+.rectangle-section .rectangle h2 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.rectangle-section .rectangle h3 {
+    font-size: 26px;
+    font-weight: 300;
+}
+
+.courses-section .head h4 {
+    font-size: 25px;
+    font-weight: 500;
+    color: #000;
+}
+
+.courses-section .body a {
+    text-decoration: none;
+    color: #000;
+}
+
+.courses-section .body .course {
+    width: 94%;
+    background-color: #FFF;
+    height: 380px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s;
+}
+
+.courses-section .body .course:hover {
+    transform: scale(1.025);
+}
+
+.courses-section .body .course img {
+    width: 100%;
+    height: 70% !important;
+    border-radius: 15px;
+}
+
+.courses-section .body .course h6 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+}
+
+.courses-section .body .course small {
+    font-size: 12px;
+    font-weight: 400;
+    color: #000;
+}
+
+
+.courses-section .body .course i {
+    font-size: 14px;
+    color: #000;
+}
+
+.courses-section .body .course span {
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+}
+
+.courses-section .body .course strong {
+    font-size: 18px;
+    font-weight: 800;
+    color: #000;
+}
+
 .subtitle-section img {
     border-radius: 15px;
 }
