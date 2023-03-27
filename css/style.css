@@ -127,6 +127,7 @@
 .rectangle-section .rectangle p {
     font-size: 19px;
     font-weight: 400;
+    line-height: 28px;
 }
 
 .rectangle-section .rectangle h2 {
@@ -137,6 +138,18 @@
 .rectangle-section .rectangle h3 {
     font-size: 26px;
     font-weight: 300;
+}
+
+.rectangle-section .rectangle .img-1 {
+    width: 65%;
+}
+
+.rectangle-section .rectangle .img-2 {
+    width: 72%;
+}
+
+.rectangle-section .rectangle .img-3 {
+    width: 60%;
 }
 
 .courses-section .head h4 {
@@ -329,6 +342,81 @@
     height: 50px;
 }
 
+
+
+
+
+
+
+
+
+
+.about-us-section {
+    background-image: url(../images/about-us-bg.png);
+    background-position: top center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.about-us-section .rectangle h2 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.about-us-section .rectangle img {
+    width: 80%;
+    border-radius: 30px;
+}
+
+.about-us-section .rectangle p {
+    white-space: pre-wrap;
+    color: #000;
+}
+
+
+
+.course-section {
+    background-image: url(../images/faq-bg.png);
+    background-position: top center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.course-section .head h2 , h6 {
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.course-section .body img {
+    border-radius: 15px;
+}
+
+.course-section .body strong {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.course-section .body i {
+    font-size: 20px;
+}
+
+.course-section .body span {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.course-section .desc p {
+    white-space: pre-wrap;
+}
+
+.course-section .desc p.special {
+    -webkit-columns: 40px 2;
+}
+
+.course-section .summary .desc p {
+    font-size: 18px;
+}
+
 @media all and (max-width:1399px) {
     .home-section .search-2 {
         width: 87%;
@@ -497,8 +585,16 @@
         font-size: 13px;
     }
 
-    .rectangle-section .rectangle img {
-        width: 75%;
+    .rectangle-section .rectangle .img-1 {
+        width: 50% !important;
+    }
+
+    .rectangle-section .rectangle .img-2 {
+        width: 55% !important;
+    }
+
+    .rectangle-section .rectangle .img-3 {
+        width: 48% !important;
     }
 
     .rectangle-section .rectangle i {
