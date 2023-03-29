@@ -471,6 +471,22 @@
     font-size: 18px;
 }
 
+.terms-section {
+    background-color: #001232;
+    text-transform: capitalize;
+}
+
+.terms-section p {
+    white-space: pre-wrap;
+    font-weight: 500;
+}
+
+.terms-section h6 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
 @media all and (max-width:1399px) {
     .home-section .search-2 {
         width: 87%;
@@ -776,4 +792,15 @@
         -webkit-columns: 40px 1;
     }
 
+    .terms-section h2 {
+        font-size: 20px;
+    }
+
+    .terms-section p {
+        font-size: 14px;
+    }
+    
+    .terms-section h6 {
+        font-size: 16px;
+    }
 }
