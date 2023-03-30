@@ -5,6 +5,10 @@
     font-family: 'Nunito', sans-serif;
 }
 
+.main-color {
+    color: #001232;
+}
+
 #btn-back-to-top {
     background-color: #E19C37;
     color: #fff;
@@ -487,6 +491,49 @@
 }
 
 
+.faq-section {
+    background-image: url(../images/faq-bg.png);
+    background-position: top center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.faq-section .rectangle h2 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.faq-section .nav-tabs {
+    border: 0;
+}
+
+.faq-section .nav-link {
+    border: 1px solid #E19C37;
+    color: #001232;
+    border-radius: 15px;
+    padding: 20px 80px;
+    margin: 0 10px;
+    transition: all 0.5s;
+}
+
+.faq-section .nav-link:hover {
+    border: 1px solid transparent;
+    background-color: #001232;
+    color: #E19C37;
+}
+
+.faq-section .nav-link.active {
+    border: 1px solid transparent;
+    background-color: #001232;
+    color: #E19C37;
+}
+
+.faq-section .title h5 {
+    cursor: pointer;
+}
+
+
+
 @media all and (max-width:1399px) {
     .home-section .search-2 {
         width: 87%;
@@ -802,5 +849,52 @@
     
     .terms-section h6 {
         font-size: 16px;
+    }
+
+
+    .about-us-section .rectangle h2 {
+        font-size: 22px;
+    }
+
+    .about-us-section .rectangle h4 {
+        font-size: 20px;
+    }
+
+    .about-us-section .rectangle p {
+        font-size: 14px;
+    }
+
+    .about-us-section .box .title h5 {
+        font-size: 18px;
+    }
+
+    .about-us-section .box .desc p {
+        font-size: 14px;
+    }
+
+    .faq-section {
+        background-size: 110% 25%;
+    }
+
+    .faq-section .rectangle h2 {
+        font-size: 22px;
+    }
+
+    .faq-section .rectangle h4 {
+        font-size: 14px;
+    }
+
+    .faq-section .nav-link {
+        padding: 10px;
+        margin: 0 2px;
+        font-size: 14px;
+    }
+
+    .faq-section .title h5 {
+        font-size: 16px;
+    }
+
+    .faq-section .body h6 {
+        font-size: 14px;
     }
 }
